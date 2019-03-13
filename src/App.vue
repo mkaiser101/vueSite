@@ -1,12 +1,11 @@
 <template>
   <v-app>
-    <v-toolbar class="deep-purple">
-      <v-toolbar-side-icon @click.stop="drawer = !drawer" dark></v-toolbar-side-icon>
-      <v-toolbar-title dark>Vuetify Tutorial</v-toolbar-title>
+    <v-toolbar class="green accent-3">
+      <v-toolbar-title dark>Navigate me</v-toolbar-title>
+      <v-spacer></v-spacer>
       <v-toolbar-items>
-        <v-btn flat dark>Vue</v-btn>
-        <v-btn flat dark>Vuex</v-btn>
-        <v-btn flat dark>Nuxt</v-btn>
+        <v-btn flat dark to="/">home</v-btn>
+        <v-btn flat dark to="/second" exact>second</v-btn>
       </v-toolbar-items>
     </v-toolbar>
     <v-content>
@@ -20,7 +19,7 @@
       absolute
     >
 
-    
+
     </v-navigation-drawer>
   </v-app>
 </template>
