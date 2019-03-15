@@ -28,14 +28,8 @@
    </v-layout>
 
   <v-layout row>
-       <v-flex
-         grow
-         pa-1
-       >
-         <v-card
-           dark
-           color="green darken-3"
-         >
+       <v-flex grow pa-1>
+         <v-card dark color="green darken-3">
          <v-container grid-list-sm fluid>
            <v-layout row wrap>
              <v-flex
