@@ -9,8 +9,8 @@
       column
       justify-center
     >
-      <h1 class="display-2 font-weight-thin mb-3">Vuetify.js</h1>
-      <h4 class="subheading">Build your application today!</h4>
+      <h1 class="display-2 font-weight-thin mb-3">Matt Kaiser</h1>
+      <h4 class="subheading">I'll Build your application today!</h4>
     </v-layout>
   </v-parallax>
   

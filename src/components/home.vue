@@ -4,7 +4,7 @@
 
   <v-layout row>
      <v-flex xs6 order-lg2>
-       <v-card dark tile flat color="error">
+       <v-card>
        <v-carousel>
          <v-carousel-item
            v-for="(item,i) in items"
@@ -15,7 +15,7 @@
        </v-card>
      </v-flex>
      <v-flex xs6>
-       <v-card dark tile flat color="red darken-4">
+       <v-card>
        <v-carousel>
          <v-carousel-item
            v-for="(item,i) in items"
