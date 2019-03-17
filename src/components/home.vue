@@ -1,7 +1,21 @@
 
 <template>
   <div>
-
+  
+  <v-parallax
+    dark
+    :src="images.meadow"
+  >
+    <v-layout
+      align-center
+      column
+      justify-center
+    >
+      <v-avatar :src="images.remby"></v-avatar>
+      <h1 class="display-2 font-weight-thin mb-3">REMYYYY!!!</h1>
+      <h4 class="subheading">I'll build your application today!</h4>
+    </v-layout>
+  </v-parallax>
   <v-layout row>
      <v-flex xs6 order-lg2>
        <v-card>
@@ -175,7 +189,11 @@
           {
             src: 'https://cdn.vuetifyjs.com/images/carousel/planet.jpg'
           }
-        ]
+        ],
+        images: {
+          meadow: require('../assets/meadow.jpg'),
+          remby: require('../assets/remby.jpg')
+        }
       }
     }
   }
