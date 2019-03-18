@@ -6,6 +6,10 @@ import router from './router'
 import Parallax from 'vue-parallaxy'
 import Vuetify from 'vuetify'
 import 'vuetify/dist/vuetify.min.css'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faEnvelope, faUser } from '@fortawesome/free-solid-svg-icons'
+import { faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 export default {
   components: {
@@ -13,7 +17,18 @@ export default {
   }
 }
 
+// Add the specific imported icons
+library.add(faEnvelope)
+library.add(faUser)
+library.add(faFacebook)
+library.add(faInstagram)
+
+// Enable the FontAwesomeIcon component globally
+Vue.component('font-awesome-icon', FontAwesomeIcon)
+
 Vue.use(Vuetify)
+
+Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 Vue.config.productionTip = false
 
