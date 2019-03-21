@@ -191,8 +191,7 @@
           }
         ],
         images: {
-          meadow: require('../assets/meadow.jpg'),
-          remby: require('../assets/remby.jpg')
+          meadow: require('../assets/meadow.jpg')
         }
       }
     }

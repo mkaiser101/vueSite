@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <v-toolbar class="green accent-3" fixed="True">
-      <v-toolbar-title dark>Navigate me</v-toolbar-title>
+      <v-toolbar-title dark>Matt Kaiser Technical Services</v-toolbar-title>
       <v-spacer></v-spacer>
       <v-toolbar-items>
         <v-btn flat dark to="/">home</v-btn>
@@ -22,16 +22,18 @@
       tile
     >
       <v-card-title class="teal">
-        <strong class="subheading">Get connected with us on social networks!</strong>
+        <strong class="subheading">Find me on these other sites!</strong>
 
         <v-spacer></v-spacer>
 
-          <v-btn flat dark href="https://www.instagram.com/remy_mtndog"><font-awesome-icon :icon="{ prefix: 'fab', iconName: 'instagram' }"/></v-btn>
+          <v-btn flat dark href="https://www.github.com/mkaiser101"><font-awesome-icon :icon="{ prefix: 'fab', iconName: 'github' }"/></v-btn>
+          <v-btn flat dark href="https://stackoverflow.com/users/7637112/matt"><font-awesome-icon :icon="{ prefix: 'fab', iconName: 'stack-overflow' }"/></v-btn>
+          <v-btn flat dark href="https://www.linkedin.com/in/matthew-kaiserucb/"><font-awesome-icon :icon="{ prefix: 'fab', iconName: 'linkedin' }"/></v-btn>
         
       </v-card-title>
 
       <v-card-actions class="grey darken-3 justify-center">
-        &copy;2019 — <strong>Remy Mountain Dog</strong>
+        &copy;2019 — <strong>Matt Kaiser Technical Services</strong>
       </v-card-actions>
     </v-card>
   </v-footer>

@@ -9,11 +9,22 @@
       column
       justify-center
     >
-      <h1 class="display-2 font-weight-thin mb-3">Matt Kaiser</h1>
-      <h4 class="subheading">I'll build your application today!</h4>
+      <h1 class="display-2 font-weight-thin mb-3">Vuetify.js</h1>
+      <h4 class="subheading">Build your application today!</h4>
+      <img src="images.meadow" width="400" />
     </v-layout>
   </v-parallax>
-  
-  <v-parallax src="https://cdn.vuetifyjs.com/images/parallax/material.jpg"></v-parallax>
   </div>
 </template>
+
+<script>
+  export default {
+    data () {
+      return {
+        images: {
+          bron: require('../assets/bron.jpg')
+        }
+      }
+    }
+  }
+</script>
