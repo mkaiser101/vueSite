@@ -187,7 +187,7 @@
             src: 'https://cdn.vuetifyjs.com/images/carousel/bird.jpg'
           },
           {
-            src: 'https://cdn.vuetifyjs.com/images/carousel/planet.jpg'
+            src: '../assets/fcBenny.jpg'
           }
         ],
         images: {
