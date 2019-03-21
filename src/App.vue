@@ -1,7 +1,7 @@
 <template>
   <v-app>
-    <v-toolbar class="green accent-3" fixed="True">
-      <v-toolbar-title dark>Matt Kaiser Technical Services</v-toolbar-title>
+    <v-toolbar class="teal" fixed="True">
+      <v-toolbar-title>Matt Kaiser Technical Services</v-toolbar-title>
       <v-spacer></v-spacer>
       <v-toolbar-items>
         <v-btn flat dark to="/">home</v-btn>

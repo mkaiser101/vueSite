@@ -24,3 +24,7 @@ export default new Router({
     }
   ]
 })
+
+//to add:
+//services page where i talk devops, cybersec, webdev, retropie
+//blog about what im working on 

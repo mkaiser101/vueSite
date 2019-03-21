@@ -4,16 +4,16 @@
   
   <v-parallax
     dark
-    :src="images.meadow"
+    :src="images.fcBenny"
   >
     <v-layout
       align-center
       column
       justify-center
     >
-      <v-avatar :src="images.remby"></v-avatar>
-      <h1 class="display-2 font-weight-thin mb-3">REMYYYY!!!</h1>
-      <h4 class="subheading">I'll build your application today!</h4>
+     
+      <h1 class="display-2 font-weight-thin mb-3">I like to make things with technology</h1>
+      <h4 class="subheading">I'll build your solution today!</h4>
     </v-layout>
   </v-parallax>
   <v-layout row>
@@ -191,7 +191,7 @@
           }
         ],
         images: {
-          meadow: require('../assets/meadow.jpg')
+          fcBenny: require('../assets/fcBenny.jpg')
         }
       }
     }
