@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import home from '@/components/home'
-import second from '@/components/second'
-import hikes from '@/components/hikes'
+import projects from '@/components/projects'
+import about from '@/components/about'
 Vue.use(Router)
 
 export default new Router({
@@ -13,14 +13,14 @@ export default new Router({
       component: home
     },
     {
-      path: '/second',
-      name: 'second',
-      component: second
+      path: '/projects',
+      name: 'projects',
+      component: projects
     },
     {
-      path: '/hikes',
-      name: 'hikes',
-      component: hikes
+      path: '/about',
+      name: 'about',
+      component: about
     }
   ]
 })

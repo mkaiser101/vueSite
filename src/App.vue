@@ -5,8 +5,8 @@
       <v-spacer></v-spacer>
       <v-toolbar-items>
         <v-btn flat dark to="/">home</v-btn>
-        <v-btn flat dark to="/second" exact>second</v-btn>
-        <v-btn flat dark to="/hikes" exact>hikes</v-btn>
+        <v-btn flat dark to="/projects" exact>projects</v-btn>
+        <v-btn flat dark to="/about" exact>about</v-btn>
       </v-toolbar-items>
     </v-toolbar>
     <v-content>
