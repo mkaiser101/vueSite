@@ -1,4 +1,4 @@
-# vuetify-tutorial
+# Matt K aiser Web dev via vue+vuetify
 
 > A Vue.js project
 
