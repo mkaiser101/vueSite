@@ -1,7 +1,7 @@
 
 <template>
   <div>
-  
+
   <v-parallax
     dark
     :src="images.fcBenny"
@@ -11,26 +11,36 @@
       column
       justify-center
     >
-     
-      <h1 class="display-2 font-weight-thin mb-3">I like to make things with technology</h1>
-      <h4 class="subheading">I'll build your solution today!</h4>
+
+      <h1 class="display-2 font-weight-thin mb-3">I like to make things</h1>
+      <h4 class="subheading">I'll build your solution for $$</h4>
     </v-layout>
   </v-parallax>
   <v-layout row>
      <v-flex xs6 order-lg2>
-       <v-card>
-       <v-carousel>
-         <v-carousel-item
-           v-for="(item,i) in items"
-           :key="i"
-           :src="item.src"
-         ></v-carousel-item>
-       </v-carousel>
-       </v-card>
+     <v-card height="550">
+      <v-img
+        src="https://cdn.vuetifyjs.com/images/cards/desert.jpg"
+        aspect-ratio="2.75"
+      ></v-img>
+
+      <v-card-title primary-title>
+        <div>
+          <h3 class="headline mb-0">Kangaroo Valley Safari</h3>
+          <div> {{ card_text }} </div>
+        </div>
+      </v-card-title>
+
+      <v-card-actions>
+        <v-btn flat color="orange">Share</v-btn>
+        <v-btn flat color="orange">Explore</v-btn>
+      </v-card-actions>
+    </v-card>
+
      </v-flex>
-     <v-flex xs6>
+     <v-flex xs6 order-lg2>
        <v-card>
-       <v-carousel>
+       <v-carousel height="550">
          <v-carousel-item
            v-for="(item,i) in items"
            :key="i"
@@ -176,22 +186,26 @@
   export default {
     data () {
       return {
+        card_text: 'Lorem ipsum dolor sit amet, brute iriure accusata ne mea. Eos suavitate referrentur ad, te duo agam libris qualisque, utroque quaestio accommodare no qui. Et percipit laboramus usu, no invidunt verterem nominati mel. Dolorem ancillae an mei, ut putant invenire splendide mel, ea nec propriae adipisci. Ignota salutandi accusamus in sed, et per malis fuisset, qui id ludus appareat.',
         items: [
           {
-            src: 'https://cdn.vuetifyjs.com/images/carousel/squirrel.jpg'
+            src: require('../assets/airplanewindow.jpg')
           },
           {
-            src: 'https://cdn.vuetifyjs.com/images/carousel/sky.jpg'
+            src: require('../assets/rufusOG.jpg')
           },
           {
-            src: 'https://cdn.vuetifyjs.com/images/carousel/bird.jpg'
+            src: require('../assets/remby.jpg')
           },
           {
-            src: '../assets/fcBenny.jpg'
+            src: require('../assets/fcBenny.jpg')
+          },
+          {
+            src: require('../assets/datasciencehype.jpg')
           }
         ],
         images: {
-          fcBenny: require('../assets/fcBenny.jpg')
+          fcBenny: require('../assets/distortedtree.jpg')
         }
       }
     }
