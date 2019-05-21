@@ -4,7 +4,7 @@
 
   <v-parallax
     dark
-    :src="images.fcBenny"
+    :src="image1.hero"
   >
     <v-layout
       align-center
@@ -18,29 +18,28 @@
   </v-parallax>
   <v-layout row>
      <v-flex xs6 order-lg2>
-     <v-card height="550">
+     <v-card>
       <v-img
-        src="https://cdn.vuetifyjs.com/images/cards/desert.jpg"
-        aspect-ratio="2.75"
+        :src="image2.littlebirdtoldme"
+        aspect-ratio="2"
       ></v-img>
 
       <v-card-title primary-title>
         <div>
-          <h3 class="headline mb-0">Kangaroo Valley Safari</h3>
+          <h3 class="headline mb-0">Little Bird Told Me - Big Data Architecture</h3>
           <div> {{ card_text }} </div>
         </div>
       </v-card-title>
 
       <v-card-actions>
-        <v-btn flat color="orange">Share</v-btn>
-        <v-btn flat color="orange">Explore</v-btn>
+        <v-btn flat color="orange" href="https://github.com/mkaiser101/DataDreamTeam-1">View on Github</v-btn>
       </v-card-actions>
     </v-card>
 
      </v-flex>
      <v-flex xs6 order-lg2>
        <v-card>
-       <v-carousel height="550">
+       <v-carousel>
          <v-carousel-item
            v-for="(item,i) in items"
            :key="i"
@@ -186,7 +185,7 @@
   export default {
     data () {
       return {
-        card_text: 'Lorem ipsum dolor sit amet, brute iriure accusata ne mea. Eos suavitate referrentur ad, te duo agam libris qualisque, utroque quaestio accommodare no qui. Et percipit laboramus usu, no invidunt verterem nominati mel. Dolorem ancillae an mei, ut putant invenire splendide mel, ea nec propriae adipisci. Ignota salutandi accusamus in sed, et per malis fuisset, qui id ludus appareat.',
+        card_text: 'This project utilized Tweeted job postings, mapping them out to show where they physically came from to help users find local job openings with active recruitment.  While in Big Data Architecture at the University of Colroado I worked on a team utilizing Nodejs, Expressjs, MongoDB, and Docker with some help from GNIPs Twitter and Mapbox Studios APIs. Moving forward, similar strategies could be used to ingest and map facebook, linkedin, or glassdoor job postings by location.',
         items: [
           {
             src: require('../assets/airplanewindow.jpg')
@@ -204,8 +203,11 @@
             src: require('../assets/datasciencehype.jpg')
           }
         ],
-        images: {
-          fcBenny: require('../assets/distortedtree.jpg')
+        image1: {
+          hero: require('../assets/hero.jpeg')
+        },
+        image2: {
+          littlebirdtoldme: require('../assets/littlebirdtoldme.jpg')
         }
       }
     }
