@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <v-toolbar class="teal" fixed="True">
-      <v-toolbar-title color="white">Matt Kaiser the OG</v-toolbar-title>
+      <v-toolbar-title dark>Matt Kaiser</v-toolbar-title>
       <v-spacer></v-spacer>
       <v-toolbar-items>
         <v-btn flat dark to="/">home</v-btn>
