@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <v-toolbar class="teal" fixed="True">
-      <v-toolbar-title>Matt Kaiser Technical Services</v-toolbar-title>
+      <v-toolbar-title color="white">Matt Kaiser the OG</v-toolbar-title>
       <v-spacer></v-spacer>
       <v-toolbar-items>
         <v-btn flat dark to="/">home</v-btn>
@@ -33,7 +33,7 @@
       </v-card-title>
 
       <v-card-actions class="grey darken-3 justify-center">
-        &copy;2019 — <strong>Matt Kaiser Technical Services</strong>
+        &copy;2019 — <strong>Matt Kaiser</strong>
       </v-card-actions>
     </v-card>
   </v-footer>

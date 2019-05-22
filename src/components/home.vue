@@ -18,10 +18,10 @@
   </v-parallax>
   <v-layout row>
      <v-flex xs6 order-lg2>
-     <v-card>
+     <v-card max-width="100%" max-height="500">
       <v-img
         :src="image2.littlebirdtoldme"
-        aspect-ratio="2"
+        aspect-ratio="2.5"
       ></v-img>
 
       <v-card-title primary-title>
@@ -39,7 +39,7 @@
      </v-flex>
      <v-flex xs6 order-lg2>
        <v-card>
-       <v-carousel>
+       <v-carousel max-width="%100" min-height="500" max-height="750px">
          <v-carousel-item
            v-for="(item,i) in items"
            :key="i"
@@ -207,7 +207,7 @@
           hero: require('../assets/hero.jpeg')
         },
         image2: {
-          littlebirdtoldme: require('../assets/littlebirdtoldme.jpg')
+          littlebirdtoldme: require('../assets/alittlebirdy.jpg')
         }
       }
     }
