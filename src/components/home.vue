@@ -12,11 +12,17 @@
       column
       justify-center
     >
+      <v-img min-width="35%" :src="image3.paralaxicon" >
+        <v-layout pa-2 column fill-height class="lightbox white--text">
+          <v-spacer></v-spacer>
+        </v-layout>
+      </v-img>
 
       <h1 class="display-2 font-weight-thin mb-3">I like to make things</h1>
       <h4 class="subheading">I'll build your solution for $$</h4>
     </v-layout>
   </v-parallax>
+
    <v-carousel>
       <v-carousel-item
         v-for="(item,i) in items"
@@ -24,97 +30,8 @@
         :src="item.src"
       ></v-carousel-item>
     </v-carousel>
-    <v-flex grow pa-1>
-         <v-card dark color="green darken-3">
-         <v-container grid-list-sm fluid>
-           <v-layout row wrap>
-             <v-flex
-               v-for="n in 9"
-               :key="n"
-               xs4
-               d-flex
-             >
-               <v-card flat tile class="d-flex">
-                 <v-img
-                   :src="`https://picsum.photos/500/300?image=${n * 5 + 10}`"
-                   :lazy-src="`https://picsum.photos/10/6?image=${n * 5 + 10}`"
-                   aspect-ratio="1"
-                   class="grey lighten-2"
-                 >
-                   <v-layout
-                     slot="placeholder"
-                     fill-height
-                     align-center
-                     justify-center
-                     ma-0
-                   >
-                     <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
-                   </v-layout>
-                 </v-img>
-               </v-card>
-             </v-flex>
-           </v-layout>
-         </v-container>
-         </v-card>
-       </v-flex>
-       <v-flex
-         shrink
-         pa-1
-       >
-         <v-card
-           dark
-           color="green darken-1"
-         >
-        
-         </v-card>
-       </v-flex>
 
-  <v-layout>
-    <v-flex xs12 sm6 offset-sm3>
-      <v-card>
-        <v-container grid-list-sm fluid>
-          <v-layout row wrap>
-            <v-flex
-              v-for="n in 9"
-              :key="n"
-              xs4
-              d-flex
-            >
-              <v-card flat tile class="d-flex">
-                <v-img
-                  :src="`https://picsum.photos/500/300?image=${n * 5 + 10}`"
-                  :lazy-src="`https://picsum.photos/10/6?image=${n * 5 + 10}`"
-                  aspect-ratio="1"
-                  class="grey lighten-2"
-                >
-                  <v-layout
-                    slot="placeholder"
-                    fill-height
-                    align-center
-                    justify-center
-                    ma-0
-                  >
-                    <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
-                  </v-layout>
-                </v-img>
-              </v-card>
-            </v-flex>
-          </v-layout>
-        </v-container>
-      </v-card>
-    </v-flex>
-
-  </v-layout>
-
-
-    <v-carousel>
-      <v-carousel-item
-        v-for="(item,i) in items"
-        :key="i"
-        :src="item.src"
-      ></v-carousel-item>
-    </v-carousel>
-
+  
   <v-container fluid>
     <v-layout justify-space-around>
       <v-flex xs5>
@@ -123,10 +40,8 @@
           <div class="subheading">Matching</div>
           <v-img src="https://picsum.photos/510/300?random" aspect-ratio="1.7"></v-img>
           <div class="subheading pt-3">Too high</div>
-          <v-img src="https://picsum.photos/510/300?random" aspect-ratio="2"></v-img>
-          <div class="subheading pt-3">Too low</div>
-          <v-img src="https://picsum.photos/510/300?random" aspect-ratio="1.4"></v-img>
-        </v-layout>
+          <v-img src="https://picsum.photos/510/300?random" aspect-ratio="1.7"></v-img>
+          </v-layout>
       </v-flex>
 
       <v-flex xs5>
@@ -135,9 +50,7 @@
           <div class="subheading">Matching</div>
           <v-img src="https://picsum.photos/510/300?random" aspect-ratio="1.7" contain></v-img>
           <div class="subheading pt-3">Too high</div>
-          <v-img src="https://picsum.photos/510/300?random" aspect-ratio="2" contain></v-img>
-          <div class="subheading pt-3">Too low</div>
-          <v-img src="https://picsum.photos/510/300?random" aspect-ratio="1.4" contain></v-img>
+          <v-img src="https://picsum.photos/510/300?random" aspect-ratio="1.7" contain></v-img>
         </v-layout>
       </v-flex>
     </v-layout>
@@ -178,6 +91,9 @@
         },
         image2: {
           littlebirdtoldme: require('../assets/alittlebirdy.jpg')
+        },
+        image3: {
+          paralaxicon: require('../assets/rufusOG.jpg')
         }
       }
     }
