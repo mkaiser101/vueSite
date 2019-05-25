@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import home from '@/components/home'
 import projects from '@/components/projects'
 import about from '@/components/about'
+import timeline from '@/components/timeline'
 Vue.use(Router)
 
 export default new Router({
@@ -21,6 +22,11 @@ export default new Router({
       path: '/about',
       name: 'about',
       component: about
+    },
+    {
+      path: '/timeline',
+      name: 'timeline',
+      component: timeline
     }
   ]
 })
