@@ -46,7 +46,7 @@
             title: 'Teacher, Tutor, and Spokesperson',
             header: '2017 - 2018 --- Penji --- Boulder, CO',
             buttonText: 'home',
-            route: '/home'
+            route: '/'
           },
           {
             color: 'purple darken-1',
