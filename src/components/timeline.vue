@@ -19,7 +19,7 @@
             <v-card-text>
              {{ item.text }}
           </v-card-text>
-           <v-btn round :color="item.color" :to="item.route">{{ item.buttonText }}</v-btn>
+           <v-btn round large :color="item.buttonColor" :to="item.route">{{ item.buttonText }}</v-btn>
         </v-card>
       </v-timeline-item>
     </v-timeline>
@@ -37,6 +37,7 @@
             title: 'Associate Cyber Secuirty Engineer',
             header: '2018 - Present --- Visa Inc --- Ashburn, VA',
             buttonText: 'about',
+            buttonColor: '#fff',
             route: '/about'
           },
           {
