@@ -1,17 +1,20 @@
 <template>
+<div>
   <v-app>
-    <v-toolbar class="teal" floating="true">
+    <v-toolbar dense class="teal">
       <v-toolbar-title dark>Matt Kaiser</v-toolbar-title>
       <v-spacer></v-spacer>
       <v-toolbar-items>
-        <v-btn flat dark to="/">home</v-btn>
+        <v-btn flat dark to="/" exact>home</v-btn>
         <v-btn flat dark to="/projects" exact>projects</v-btn>
         <v-btn flat dark to="/about" exact>about</v-btn>
         <v-btn flat dark to="/timeline" exact>timeline</v-btn>
       </v-toolbar-items>
     </v-toolbar>
     <v-content>
+      <div class="backtheme">
       <router-view/>
+      </div>
     </v-content>
     <v-footer
     dark
@@ -34,11 +37,23 @@
       </v-card-title>
 
       <v-card-actions class="grey darken-3 justify-center">
-        &copy;2019 — <strong>Matt Kaiser</strong>
+        &copy;2019 v1 — <strong>Matt Kaiser</strong>
       </v-card-actions>
     </v-card>
   </v-footer>
   </v-app>
+  </div>
 </template>
+
+<style>
+
+.backtheme {
+    width: 100%;
+    background-color:#d3d3d3;
+    margin-left: auto;
+    margin-right: auto;
+}
+</style>
+
 
 

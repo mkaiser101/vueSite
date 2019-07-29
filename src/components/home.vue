@@ -1,7 +1,7 @@
 
 <template>
   <div>
-
+    <div class="banner">
   <v-parallax
     height="700"
     dark
@@ -12,16 +12,19 @@
       column
       justify-center
     >
+    <div class="bannerpic1">
       <v-img min-width="35%" :src="image3.paralaxicon" >
         <v-layout pa-2 column fill-height class="lightbox white--text">
           <v-spacer></v-spacer>
         </v-layout>
       </v-img>
+      </div>
 
       <h1 class="display-2 font-weight-thin mb-3">I like to make things</h1>
       <h4 class="subheading">I'll build your solution for $$</h4>
     </v-layout>
   </v-parallax>
+  </div>
 
    <v-carousel>
       <v-carousel-item
@@ -116,3 +119,17 @@
     }
   }
 </script>
+
+<style>
+.banner {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bannerpic1 {
+    width: 30%;
+    margin-left: 100px;
+    margin-right: auto;
+    margin-bottom:20%
+}
+</style>

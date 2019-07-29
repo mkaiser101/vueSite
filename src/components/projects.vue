@@ -1,4 +1,3 @@
-
 <template>
      <div>
        <v-layout row d-flex="true">
@@ -77,4 +76,6 @@
     }
   }
 </script>
+
+
 
