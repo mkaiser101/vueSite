@@ -1,6 +1,186 @@
 <template>
      <div>
+
+
+    <v-layout row d-flex="true" class="mt-5">
+      <v-card
+    class="mx-auto"
+    max-width="400"
+    max-height="400"
+  >
+    <v-img
+      class="white--text align-end"
+      height="200px"
+
+      :src="image2.littlebirdtoldme"
+    >
+      <v-card-title>Top 10 Australian beaches</v-card-title>
+    </v-img>
+
+    <v-card-actions>
+      <v-btn
+        color="orange"
+        text
+      >
+        Share
+      </v-btn>
+
+    
+    </v-card-actions>
+  </v-card>
+  </v-layout>
+
+  
+    <v-layout row d-flex="true" class="mt-5">
+      <v-card
+    class="mx-auto"
+    max-width="400"
+    max-height="400"
+  >
+    <v-img
+      class="white--text align-end"
+      height="200px"
+
+      :src="image2.littlebirdtoldme"
+    >
+      <v-card-title>Top 10 Australian beaches</v-card-title>
+    </v-img>
+
+    <v-card-actions>
+      <v-btn
+        color="orange"
+        text
+      >
+        Share
+      </v-btn>
+
+    
+    </v-card-actions>
+  </v-card>
+  </v-layout>
+
+     <v-layout row d-flex="true" class="mt-5">
+      <v-card
+    class="mx-auto"
+    max-width="400"
+    max-height="400"
+  >
+    <v-img
+      class="white--text align-end"
+      height="200px"
+
+      :src="image2.littlebirdtoldme"
+    >
+      <v-card-title>Top 10 Australian beaches</v-card-title>
+    </v-img>
+
+    <v-card-actions>
+      <v-btn
+        color="orange"
+        text
+      >
+        Share
+      </v-btn>
+
+    
+    </v-card-actions>
+  </v-card>
+  </v-layout>
+
+
+
+      <v-layout row d-flex="true">
+     <v-flex xs6 order-lg2>
+     <v-card max-width="100%">
+      <v-img
+        :src="image2.littlebirdtoldme"
+      ></v-img>
+
+      <v-card-title primary-title>
+        <div>
+          <h3 class="headline mb-0">Little Bird Told Me - Big Data Architecture</h3>
+       
+        </div>
+      </v-card-title>
+
+      <v-card-actions>
+        <v-btn flat color="orange" href="https://github.com/mkaiser101/DataDreamTeam-1">View on Github</v-btn>
+      </v-card-actions>
+    </v-card>
+
+     </v-flex>
+         
+
+   </v-layout>
+
+
        <v-layout row d-flex="true">
+     <v-flex xs6 order-lg3>
+     <v-card max-width="100%">
+      <v-img
+        :src="image2.littlebirdtoldme"
+      ></v-img>
+
+      <v-card-title primary-title>
+        <div>
+          <h3 class="headline mb-0">Little Bird Told Me - Big Data Architecture</h3>
+       
+        </div>
+      </v-card-title>
+
+      <v-card-actions>
+        <v-btn flat color="orange" href="https://github.com/mkaiser101/DataDreamTeam-1">View on Github</v-btn>
+      </v-card-actions>
+    </v-card>
+
+     </v-flex>
+   
+     <v-flex xs6 order-lg3>
+       <v-card max-width="100%">
+      <v-img
+        :src="image2.littlebirdtoldme"
+      ></v-img>
+
+      <v-card-title primary-title>
+        <div>
+          <h3 class="headline mb-0">Little Bird Told Me - Big Data Architecture</h3>
+       
+        </div>
+      </v-card-title>
+
+      <v-card-actions>
+        <v-btn flat color="orange" href="https://github.com/mkaiser101/DataDreamTeam-1">View on Github</v-btn>
+      </v-card-actions>
+    </v-card>
+     </v-flex>
+         
+         
+         <v-flex xs6 order-lg3>
+       <v-card max-width="100%">
+      <v-img
+        :src="image2.littlebirdtoldme"
+      ></v-img>
+
+      <v-card-title primary-title>
+        <div>
+          <h3 class="headline mb-0">Pineapple Fried Rice </h3>
+       
+        </div>
+      </v-card-title>
+
+      <v-card-actions>
+        <v-btn flat color="orange" href="https://github.com/mkaiser101/DataDreamTeam-1">View on Github</v-btn>
+      </v-card-actions>
+    </v-card>
+     </v-flex>
+
+
+
+   </v-layout>
+   
+
+
+   <v-layout row d-flex="true">
      <v-flex xs6 order-lg2>
      <v-card max-width="100%">
       <v-img
@@ -41,14 +221,16 @@
     </v-card>
      </v-flex>
    </v-layout>
+
+
    </div>
+
 </template>
 
 <script>
   export default {
     data () {
       return {
-        card_text: 'This project utilized Tweeted job postings, mapping them out to show where they physically came from to help users find local job openings with active recruitment.  While in Big Data Architecture at the University of Colroado I worked on a team utilizing Nodejs, Expressjs, MongoDB, and Docker with some help from GNIPs Twitter and Mapbox Studios APIs. Moving forward, similar strategies could be used to ingest and map facebook, linkedin, or glassdoor job postings by location.',
         items: [
           {
             src: require('../assets/airplanewindow.jpg')

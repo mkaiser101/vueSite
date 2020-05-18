@@ -11,8 +11,8 @@
         <v-btn flat dark to="/timeline" exact>timeline</v-btn>
       </v-toolbar-items>
     </v-toolbar>
-    <v-content>
-      <div class="backtheme">
+    <v-content class="backtheme">
+      <div>
       <router-view/>
       </div>
     </v-content>
