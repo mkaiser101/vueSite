@@ -18,7 +18,7 @@
         src="https://cdn.vuetifyjs.com/images/cards/cooking.png"
       ></v-img>
   
-      <v-card-title>Daddys ramen</v-card-title>
+      <v-card-title>MKs Ramen</v-card-title>
   
       <v-card-text>
  
