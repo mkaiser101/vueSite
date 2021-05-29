@@ -9,6 +9,7 @@
         <v-btn flat dark to="/projects" exact>projects</v-btn>
         <v-btn flat dark to="/about" exact>about</v-btn>
         <v-btn flat dark to="/timeline" exact>timeline</v-btn>
+        <v-btn flat dark to="/cookbook" exact>cookbook</v-btn>
       </v-toolbar-items>
     </v-toolbar>
     <v-content class="backtheme">

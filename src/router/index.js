@@ -4,6 +4,7 @@ import home from '@/components/home'
 import projects from '@/components/projects'
 import about from '@/components/about'
 import timeline from '@/components/timeline'
+import cookbook from '@/components/cookbook'
 Vue.use(Router)
 
 export default new Router({
@@ -27,6 +28,11 @@ export default new Router({
       path: '/timeline',
       name: 'timeline',
       component: timeline
+    },
+    {
+      path: '/cookbook',
+      name: 'cookbook',
+      component: cookbook
     }
   ]
 })
