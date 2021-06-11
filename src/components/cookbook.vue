@@ -38,7 +38,6 @@
   
 
     </v-card>
-    </v-timeline>
 </div>
 </template>
 <script>

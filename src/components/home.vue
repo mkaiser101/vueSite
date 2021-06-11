@@ -12,16 +12,10 @@
       column
       justify-center
     >
-    <div class="bannerpic1">
-      <v-img min-width="35%" :src="image3.paralaxicon" >
-        <v-layout pa-2 column fill-height class="lightbox white--text">
-          <v-spacer></v-spacer>
-        </v-layout>
-      </v-img>
-      </div>
+  
 
-      <h1 class="display-2 font-weight-thin mb-3">I like to make things</h1>
-      <h4 class="subheading">I'll build your solution for $$</h4>
+      <h1 class="display-2 font-weight-thin mb-3">OG from a small town</h1>
+      <h4 class="subheading">Just playing around</h4>
     </v-layout>
   </v-parallax>
   </div>
@@ -60,25 +54,6 @@
   </v-container>
 
 
-<v-timeline>
-    <v-timeline-item
-      v-for="n in 4"
-      :key="n"
-      color="red lighten-2"
-      large
-    >
-      <template v-slot:opposite>
-        <span>Tus eu perfecto</span>
-      </template>
-      <v-card class="elevation-2">
-        <v-card-title class="headline">Lorem ipsum</v-card-title>
-        <v-card-text>
-          Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola imperdiet nec ut, sed euismod convenire principes at. Est et nobis iisque percipit, an vim zril disputando voluptatibus, vix an salutandi sententiae.
-        </v-card-text>
-      </v-card>
-    </v-timeline-item>
-  </v-timeline>
-
 </div>
 
 
@@ -97,10 +72,7 @@
             src: require('../assets/rufusOG.jpg')
           },
           {
-            src: require('../assets/remby.jpg')
-          },
-          {
-            src: require('../assets/fcBenny.jpg')
+            src: require('../assets/falling_water.jpg')
           },
           {
             src: require('../assets/datasciencehype.jpg')
